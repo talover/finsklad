@@ -1,0 +1,88 @@
+
+@font-face {
+	font-family:'Circe-Regular';
+	src: url('Circe-Regular_gdi.eot');
+	src: url('Circe-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Regular_gdi.woff') format('woff'),
+		url('Circe-Regular_gdi.ttf') format('truetype'),
+		url('Circe-Regular_gdi.otf') format('opentype'),
+		url('Circe-Regular_gdi.svg#Circe-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+@font-face {
+	font-family:'Circe-Bold';
+	src: url('Circe-Bold_gdi.eot');
+	src: url('Circe-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Bold_gdi.woff') format('woff'),
+		url('Circe-Bold_gdi.ttf') format('truetype'),
+		url('Circe-Bold_gdi.otf') format('opentype'),
+		url('Circe-Bold_gdi.svg#Circe-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'Circe-ExtraBold';
+	src: url('Circe-ExtraBold_gdi.eot');
+	src: url('Circe-ExtraBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-ExtraBold_gdi.woff') format('woff'),
+		url('Circe-ExtraBold_gdi.ttf') format('truetype'),
+		url('Circe-ExtraBold_gdi.otf') format('opentype'),
+		url('Circe-ExtraBold_gdi.svg#Circe-ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'Circe-ExtraLight';
+	src: url('Circe-ExtraLight_gdi.eot');
+	src: url('Circe-ExtraLight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-ExtraLight_gdi.woff') format('woff'),
+		url('Circe-ExtraLight_gdi.ttf') format('truetype'),
+		url('Circe-ExtraLight_gdi.otf') format('opentype'),
+		url('Circe-ExtraLight_gdi.svg#Circe-ExtraLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'Circe-Light';
+	src: url('Circe-Light_gdi.eot');
+	src: url('Circe-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Light_gdi.woff') format('woff'),
+		url('Circe-Light_gdi.ttf') format('truetype'),
+		url('Circe-Light_gdi.otf') format('opentype'),
+		url('Circe-Light_gdi.svg#Circe-Light') format('svg');
+	font-weight: 350;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'Circe-Thin';
+	src: url('Circe-Thin_gdi.eot');
+	src: url('Circe-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Thin_gdi.woff') format('woff'),
+		url('Circe-Thin_gdi.ttf') format('truetype'),
+		url('Circe-Thin_gdi.otf') format('opentype'),
+		url('Circe-Thin_gdi.svg#Circe-Thin') format('svg');
+	font-weight: 250;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
