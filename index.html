@@ -7,10 +7,11 @@
         <meta charset="utf-8">
         <title>finsklad</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+
         <meta http-equiv="Cache-Control" content="no-cache"/>
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Cache-Control" content="no-cache"/>
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 <!-- 
@@ -22,6 +23,7 @@
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+            <link rel="stylesheet" href="css/ie-8.css">
         <![endif]-->
     </head>
     <body>
@@ -71,12 +73,12 @@
                                     <form>
                                         <div class="row">
                                             <label>e-mail</label>
-                                            <input type="text" placeholder="___">
+                                            <input type="text">
                                         </div>
 
                                         <div class="row">
                                             <label>пароль</label>
-                                            <input type="password" placeholder="___">
+                                            <input type="password">
                                         </div>
 
                                         <button type="submit">вход</button>
@@ -88,31 +90,31 @@
                                 <div id="registration" class="tab">
                                     <form>
                                         <div class="row">
-                                            <input type="text" placeholder="имя">
+                                            <input type="text" value="имя" onclick="this.value=''" onblur="this.value='имя'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="моб. телефон">
+                                            <input type="text" value="моб. телефон" onclick="this.value=''" onblur="this.value='моб. телефон'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="e-mail:">
+                                            <input type="text" value="e-mail:" onclick="this.value=''" onblur="this.value='e-mail:'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="пароль   не менее 6 символов">
+                                            <input type="text" value="пароль не менее 6 символов" onclick="this.value=''" onblur="this.value='пароль не менее 6 символов'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="подтвердите пароль">
+                                            <input type="text" value="подтвердите пароль" onclick="this.value=''" onblur="this.value='подтвердите пароль'">
                                         </div>
 
                                         <div class="row capcha">
                                             <a href="#">обновить картинку</a>
-                                            <input type="text" placeholder="введите слово на картинке">
+                                            <div><input type="text" value="введите слово на картинке" onclick="this.value=''" onblur="this.value='введите слово на картинке'"></div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row checkbox">
                                             <input id="check-1" type="checkbox">
                                             <label for="check-1">подписаться на рассылку</label>
                                         </div>
@@ -122,11 +124,11 @@
                             </div>
                         </li>
                         <li class="basket">
-                            <span class="basket-ico"><span>8</span></span>
+                            <span class="basket-ico"><span>18</span></span>
 
                             <div class="basket-dropdown">
                                 <h4>
-                                    <span>8</span> ТОВАРОВ<br/>НА СУММУ <span>32 547</span> РУБ.
+                                    <span>18</span> ТОВАРОВ<br/>НА СУММУ <span>32 547</span> РУБ.
                                 </h4>
 
                                 <ul class="clearfix">
@@ -353,7 +355,7 @@
                 <div class="bottom-filter clearfix">
                     <div class="f-left">
                         <h4>возраст</h4>
-                        <ul>
+                        <ul class="clearfix">
                             <li>0</li>
                             <li>1</li>
                             <li>2</li>
@@ -378,7 +380,7 @@
                     <div class="f-right">
                         <h4>рост</h4>
 
-                        <ul>
+                        <ul class="clearfix">
                             <li>68</li>
                             <li>74</li>
                             <li>80</li>
@@ -491,10 +493,10 @@
                             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
                             <form>
                                 <div class="form-wrap">
-                                    <input type="text" placeholder="имя">
-                                    <input type="text" placeholder="e-mail">
-                                    <input type="text" placeholder="номер заказа">
-                                    <textarea placeholder="сообщение"></textarea>
+                                    <input type="text" value="имя" onclick="this.value=''" onblur="this.value='имя'">
+                                    <input type="text" value=" e-mail" onclick="this.value=''" onblur="this.value='e-mail'">
+                                    <input type="text" value="номер заказа" onclick="this.value=''" onblur="this.value='номер заказа'">
+                                    <textarea value="сообщение" onclick="this.value=''" onblur="this.value='сообщение'">сообщение</textarea>
                                 </div>
                                 <button class="f-right" type="submit">Отправить</button>
                             </form>
@@ -505,8 +507,8 @@
                             <h3>ОБРАТНЫЙ ЗВОНОК</h3>
                             <form>
                                 <div class="form-wrap">
-                                    <input type="text" placeholder="имя, фамилия">
-                                    <input type="text" placeholder="телефон">
+                                    <input type="text" value="имя, фамилия" onclick="this.value=''" onblur="this.value='имя, фамилия'">
+                                    <input type="text" value="телефон" onclick="this.value=''" onblur="this.value='телефон'">
 
                                     <div class="theme-issue clearfix">
                                         <p>тема вопроса</p>
@@ -520,7 +522,7 @@
                                         </select>
                                     </div>
 
-                                    <input type="text" placeholder="номер заказа">
+                                    <input type="text" value="номер заказа" onclick="this.value=''" onblur="this.value='номер заказа'">
                                 </div>
                                 <button class="f-right" type="submit">Заказать</button>
                             </form>

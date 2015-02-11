@@ -5,10 +5,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>finsklad</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Cache-Control" content="no-cache"/>
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
         <link rel="stylesheet" href="css/normalize.min.css">
@@ -19,11 +19,10 @@
  -->
         <script src="js/vendor/fontsmoothie.min.js" type="text/javascript"></script>
  
-        
-
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+            <link rel="stylesheet" href="css/ie-8.css">
         <![endif]-->
     </head>
     <body>
@@ -73,12 +72,12 @@
                                     <form>
                                         <div class="row">
                                             <label>e-mail</label>
-                                            <input type="text" placeholder="___">
+                                            <input type="text">
                                         </div>
 
                                         <div class="row">
                                             <label>пароль</label>
-                                            <input type="password" placeholder="___">
+                                            <input type="password">
                                         </div>
 
                                         <button type="submit">вход</button>
@@ -90,31 +89,31 @@
                                 <div id="registration" class="tab">
                                     <form>
                                         <div class="row">
-                                            <input type="text" placeholder="имя">
+                                            <input type="text" value="имя" onclick="this.value=''" onblur="this.value='имя'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="моб. телефон">
+                                            <input type="text" value="моб. телефон" onclick="this.value=''" onblur="this.value='моб. телефон'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="e-mail:">
+                                            <input type="text" value="e-mail:" onclick="this.value=''" onblur="this.value='e-mail:'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="пароль   не менее 6 символов">
+                                            <input type="text" value="пароль не менее 6 символов" onclick="this.value=''" onblur="this.value='пароль не менее 6 символов'">
                                         </div>
 
                                         <div class="row">
-                                            <input type="text" placeholder="подтвердите пароль">
+                                            <input type="text" value="подтвердите пароль" onclick="this.value=''" onblur="this.value='подтвердите пароль'">
                                         </div>
 
                                         <div class="row capcha">
                                             <a href="#">обновить картинку</a>
-                                            <input type="text" placeholder="введите слово на картинке">
+                                            <div><input type="text" value="введите слово на картинке" onclick="this.value=''" onblur="this.value='введите слово на картинке'"></div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row checkbox">
                                             <input id="check-1" type="checkbox">
                                             <label for="check-1">подписаться на рассылку</label>
                                         </div>
@@ -124,11 +123,11 @@
                             </div>
                         </li>
                         <li class="basket">
-                            <span class="basket-ico"><span>8</span></span>
+                            <span class="basket-ico"><span>18</span></span>
 
                             <div class="basket-dropdown">
                                 <h4>
-                                    <span>8</span> ТОВАРОВ<br/>НА СУММУ <span>32 547</span> РУБ.
+                                    <span>18</span> ТОВАРОВ<br/>НА СУММУ <span>32 547</span> РУБ.
                                 </h4>
 
                                 <ul class="clearfix">
@@ -247,99 +246,101 @@
                 <h3 class="managers contacts-title">Наши менеджеры</h3>
             </div>
 
-            <div class="managers-slider owl-carousel owl-theme">
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#">
-                        <figure><img src="img/manager.png" alt=""></figure>
-                        <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
-                    </a>
-                </div>
-            </div><!--/#managers-slider-->
-            
+            <div class="main-container">
+                <div class="managers-slider owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <figure><img src="img/manager.png" alt=""></figure>
+                            <p>Оптовые продажи <span>Пряхин Даниил</span> daniil@finsklad.ru<br> + 7 812 345 67</p>
+                        </a>
+                    </div>
+                </div><!--/#managers-slider-->
+            </div>
+
             <div class="feedback-container main-container">
                 <ul class="clearfix">
                     <li>
@@ -347,10 +348,10 @@
                             <h3>ОБРАТНАЯ СВЯЗЬ</h3>
                             <form>
                                 <div class="form-wrap">
-                                    <input type="text" placeholder="имя">
-                                    <input type="text" placeholder="e-mail">
-                                    <input type="text" placeholder="номер заказа">
-                                    <textarea placeholder="сообщение"></textarea>
+                                    <input type="text" value="имя" onclick="this.value=''" onblur="this.value='имя'">
+                                    <input type="text" value=" e-mail" onclick="this.value=''" onblur="this.value='e-mail'">
+                                    <input type="text" value="номер заказа" onclick="this.value=''" onblur="this.value='номер заказа'">
+                                    <textarea value="сообщение" onclick="this.value=''" onblur="this.value='сообщение'">сообщение</textarea>
                                 </div>
                                 <button class="f-right" type="submit">Отправить</button>
                             </form>
@@ -361,8 +362,8 @@
                             <h3>ОБРАТНЫЙ ЗВОНОК</h3>
                             <form>
                                 <div class="form-wrap">
-                                    <input type="text" placeholder="имя, фамилия">
-                                    <input type="text" placeholder="телефон">
+                                    <input type="text" value="имя, фамилия" onclick="this.value=''" onblur="this.value='имя, фамилия'">
+                                    <input type="text" value="телефон" onclick="this.value=''" onblur="this.value='телефон'">
 
                                     <div class="theme-issue clearfix">
                                         <p>тема вопроса</p>
@@ -376,7 +377,7 @@
                                         </select>
                                     </div>
 
-                                    <input type="text" placeholder="номер заказа">
+                                    <input type="text" value="номер заказа" onclick="this.value=''" onblur="this.value='номер заказа'">
                                 </div>
                                 <button class="f-right" type="submit">Заказать</button>
                             </form>
@@ -568,5 +569,6 @@
         <script src="js/vendor/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script src="js/main.js"></script>
+
     </body>
 </html>
